@@ -15,7 +15,7 @@ angular.module("todoListApp")
       console.log(todo.name + ' deleted');
     }
 
-    this.saveTodo = function(todo) {
-      console.log(todo.name + ' saved');
+    this.saveTodos = function(todo) {
+      console.log(todo.length + ' todos saved');
     }
   });
