@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("todoListApp", [])
+angular.module("todoListApp")
   .service('dataService', function ($http) {
     this.helloConsole = function () {
       console.log('This is the hello console service!');
